@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div className="min-h-screen bg-gray-100 py-12">
+		<div className="min-h-screen bg-gray-100 py-12 text-justify">
 			<div className="max-w-4xl mx-auto px-6 lg:px-8">
 				<h1 className="text-4xl font-bold text-gray-900 mb-6">
 					Privacy Policy for Tyari NEET Ki
@@ -21,8 +21,8 @@ export default function Home() {
 					Personal Information: We collect youraccount. Usage Data: We gather
 					information about how you interact with the app (e.g., features
 					accessed, errors encountered) to improve user experience. Payment
-					Information: Payments are processed through Google Play’s secure
-					billing system, and we do not store any payment-related information.
+					Information: Payments are processed through Google Play secure billing
+					system, and we do not store any payment-related information.
 				</p>
 
 				<ul className="list-disc list-inside text-gray-700 mb-4">
@@ -53,10 +53,10 @@ export default function Home() {
 				</h2>
 				<p className="text-gray-700 leading-relaxed mb-4">
 					To maintain the integrity of our educational content, we strictly
-					prohibit: Taking screenshots of the app’s content. Recording the app’s
+					prohibit: Taking screenshots of the app content. Recording the app
 					screen. Our app includes built-in security features to prevent screen
 					captures or recordings. Any attempt to bypass these restrictions may
-					result in the suspension or termination of the user's account.
+					result in the suspension or termination of the user account.
 				</p>
 
 				<h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
